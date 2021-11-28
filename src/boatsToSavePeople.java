@@ -31,7 +31,6 @@ class boatsToSavePeople {
 
     public int numsCount(int[] people, int limit){
         Arrays.sort(people);
-
         int start = 0, end = people.length - 1;
 
         int count = 0;
